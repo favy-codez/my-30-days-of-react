@@ -51,3 +51,67 @@ body {
   text-align: center;
   margin: 2rem 0 0 0;
 }
+
+/* FOOTER */
+.footer{
+  padding: 2rem 4rem;
+  background-color: #000;
+}
+
+.footerA{
+  display: flex;
+  justify-content: space-between;
+}
+
+.foot-sec{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.footerA .foot-sec p{
+  color: #fff;
+  text-decoration: none;
+}
+
+.foot-sec p:hover{
+  color: #222;
+  transition: .8s;
+}
+
+.footerB{
+  text-align: right;
+}
+
+.footerB button{
+  font-size: 1rem;
+  padding: 8px 9px;
+  border-radius:7px  0 7px 0;
+  border: none;
+  margin: 12px 0;
+}
+
+.footerB button:hover{
+  background-color: #222;
+  transition: .8s;
+}
+
+.footerC{
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.footerC p, .footerB p{
+  color: #fff;
+  text-decoration: none;
+}
+
+.footerC p:hover, .footerB p:hover{
+  color: #222;
+  transition: .8s;
+}
+
+.divider{
+  margin: 2rem 0;
+}
