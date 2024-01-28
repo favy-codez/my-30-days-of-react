@@ -41,7 +41,10 @@ const Day1 = () => {
           author={firstBook.author}
           title={firstBook.title}
           img={firstBook.img}
-        />
+        >
+          {/* learnt about a special property(prop) called a children property */}
+          <button>Click me</button>
+        </Book>
         <Book
           author={secondBook.author}
           title={secondBook.title}

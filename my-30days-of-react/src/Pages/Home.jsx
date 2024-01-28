@@ -1,4 +1,5 @@
 import React from 'react'
+// https://github.com/john-smilga/react-course-v3/tree/main/01-fundamentals
 
 const Home = () => {
   return (
