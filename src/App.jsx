@@ -1,7 +1,7 @@
 import './App.css'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './Pages/Home'
-import Header from './Pages/Header';
+import Day3 from './Pages/DAY3/Day3';
 import Footer from './Pages/Footer';
 import Day1 from './Pages/DAY1/Day1';
 import Day2 from './Pages/DAY2/Day2';
@@ -16,6 +16,7 @@ function App() {
         <Route path="/" element={<Home/>} />
         <Route path="/Day1" element={<Day1/>} />
         <Route path="/Day2" element={<Day2/>} />
+        <Route path="/Day3" element={<Day3/>} />
         <Route path="/author" element={<Author/>} />
       </Routes>
        
